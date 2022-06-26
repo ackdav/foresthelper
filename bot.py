@@ -1,7 +1,6 @@
 import re
 import logging
 import qrcode
-from PIL import Image
 import os
 
 from telegram import Update, InlineQueryResultArticle, InputTextMessageContent
