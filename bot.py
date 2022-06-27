@@ -41,7 +41,7 @@ async def echo(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
 
 
 if __name__ == '__main__':
-    application = ApplicationBuilder().token(f'{os.environ[TELEGRAM_TOKEN]}').build()
+    application = ApplicationBuilder().token(f'{os.environ["TELEGRAM_TOKEN"]}').build()
     
     start_handler = CommandHandler('start', start)
     
