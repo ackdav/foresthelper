@@ -36,7 +36,7 @@ async def echo(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
         img = qr.make_image(fill_color="black", back_color="white")
         img.save("url.png")
 
-        url = "updated qr code...now what?"
+        url = "updated qr code...now what??"
     await update.message.reply_text(url)
 
 
